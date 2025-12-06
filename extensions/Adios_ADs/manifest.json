@@ -1,0 +1,43 @@
+{
+  "manifest_version": 3,
+  "name": "My Ad Blocker",
+  "version": "1.0",
+  "description": "Simple ad blocker using Declarative Net Request",
+
+   "icons": 
+   {
+    "16": "icon_16.png",
+    "48": "icon_48.png",
+    "128": "icon_128.png"
+  },
+
+  "action": 
+  {
+    "default_icon": {
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+    }
+  },
+
+  "declarative_net_request": 
+  {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules_1.json"
+      }
+    ]
+  },
+
+  "permissions": 
+  [
+    "declarativeNetRequest",
+    "declarativeNetRequestFeedback"
+  ],
+
+  "host_permissions": 
+  [
+    "<all_urls>"
+  ]
+}
