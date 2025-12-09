@@ -1,0 +1,3 @@
+[submodule "extensions/tab-highlighter"]
+	path = extensions/tab-highlighter
+	url = https://github.com/nihaltp/tab-highlighter
